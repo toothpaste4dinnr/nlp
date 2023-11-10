@@ -1,4 +1,5 @@
 import streamlit as st
+import spacy
 from spacy import displacy
 from gensim.summarization import summarize
 from sumy.parsers.plaintext import PlaintextParser
